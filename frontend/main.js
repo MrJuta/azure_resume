@@ -2,7 +2,7 @@ window.addEventListener('DomContentLoaded', (event) => {
     getVisitCount();
 })
 
-const functionApi = 'https://count-test-cv-plus-one.azurewebsites.net';
+const functionApi = 'process.env.FunctionKey';
 
 const getVisitCount = () => {
     let count = 30;
